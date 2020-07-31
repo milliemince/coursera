@@ -6,8 +6,12 @@
     box-sizing: border-box;
 }
 
+p {
+    padding: 10px;
+}
+
 h1 {
-    margin-bottom: 20px;
+    margin-bottom: 5%;
     text-align: center;
     font-size: 1.75em;
 }
@@ -39,9 +43,7 @@ h2 {
 /* SIMPLE RESPONSIVE FRAMEWORK */
 
 div.row {
-    position: relative;
-    width: 90%;
-    left: 5%;
+    width: 100%;
 }
 
 div.content {
@@ -53,7 +55,7 @@ div.content {
 }
 
 div.col-sm-12 {
-    margin-top: 2.5%;
+    margin-bottom: 5%;
 }
 
 
