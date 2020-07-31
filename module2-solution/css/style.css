@@ -1,0 +1,96 @@
+/* DRAFT 2 */
+
+/* BASE STYLES */
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.75em;
+}
+
+h2 {
+    position: relative;
+    width: 33.33%;
+    left: 66.66%;
+    margin-top: 0px;
+    font-size: 1.25em;
+    border: 2px solid black;
+    border-right: 0px;
+    border-top: 0px;
+    text-align: center;
+}
+
+#title1 {
+    background-color: yellow;
+}
+
+#title2 {
+    background-color: lightblue;
+}
+
+#title3 {
+    background-color: green;
+}
+
+/* SIMPLE RESPONSIVE FRAMEWORK */
+
+div.row {
+    position: relative;
+    width: 90%;
+    left: 5%;
+}
+
+div.content {
+    position: relative;
+    width: 90%;
+    left: 5%;
+    background-color: gray;
+    border: 2px solid black;
+}
+
+div.col-sm-12 {
+    margin-top: 2.5%;
+}
+
+
+/* DESKTOP ONLY */
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+/* TABLETS ONLY */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #three {
+        width: 95%;
+        left: 2.5%;
+    }
+    .col-md-6, .col-md-12 {
+        float: left;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+/* MOBILE ONLY */
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        width: 100%
+    }
+}
+
+
