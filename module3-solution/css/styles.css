@@ -1,0 +1,11 @@
+body {
+    font: Helvetica;
+}
+
+header {
+    background: gray;
+}
+
+.navbar-brand {
+    text-align: center;
+}
