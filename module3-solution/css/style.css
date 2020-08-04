@@ -1,0 +1,100 @@
+/* STYLESHEET */
+
+/* NAVBAR STYLES */
+
+#header-nav {
+    background-color: gray;
+    border-radius: 0;
+    border: 0;
+    height: 62px;
+}
+
+#header-nav .container {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.navbar-brand h1 {
+    color: black;
+    height: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+li > p {
+    text-align: center;
+    padding-right: 10px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+/* MENU ITEMS */
+
+h2.menu {
+    text-align: center;
+}
+
+.menu-item {
+    background: gray;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 80%;
+    margin: 0 auto 15px;
+    height: 500px;
+}
+
+.section-title {
+    text-align: center;
+    margin-top: 0;
+}
+
+/* MEDIA QUERIES */
+
+
+/* Desktop - md class */ 
+
+@media (min-width: 768px) {
+    .menu-item {
+        width: 95%;
+    }
+}
+
+/* Tablet - sm class */
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .menu-item {
+        width: 85%;
+    } 
+    #dropdown {
+        background-color: white;
+        border: 1px solid black;
+    } 
+}
+
+/* Mobile - xs class */
+
+@media (max-width: 575px) {
+    #dropdown {
+        background-color: white;
+        border: 1px solid black;
+    }  
+}
+
